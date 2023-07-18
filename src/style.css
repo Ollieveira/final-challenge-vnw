@@ -1,0 +1,160 @@
+:root {
+  font-size: 16px;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* ------------------- HEADER --------------------------*/
+
+header {
+  background-color: #252525;
+  color: #ffffff;
+  font-family: 'Roboto Serif', serif;
+
+  width: 100vw;
+  height: 11.17vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 62px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.logo {
+  width: 2.73vw;
+  height: 5.74vh;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.socialMedias {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialMedias i {
+  font-size: 1.6rem;
+}
+
+.socialMedias i:hover {
+  color: #fd6a9a;
+  font-size: 1.8rem;
+}
+
+/* ------------------- MAIN --------------------------*/
+
+/* ------------------- SECTION WELCOME --------------------------*/
+
+.welcome {
+  width: 100vw;
+  height: 114.77vh;
+
+  background-image: url(../assets/background-welcome.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome h1 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 3.18rem;
+  color: #ffffff;
+  text-align: center;
+
+  width: 42vw;
+  height: 19.37vh;
+
+  position: relative;
+  top: 17.89vh;
+}
+
+.welcome figure {
+  position: relative;
+  top: 23.63vh;
+}
+
+.welcome img {
+  width: 9.45vw;
+  height: 19.86vh;
+}
+
+/* ------------------- SECTION RELAX --------------------------*/
+.relax {
+  width: 100vw;
+  height: 126.1vh;
+
+  background-image: url(../assets/background-relax.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-left: 62px;
+}
+
+.relax h2 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 3.06rem;
+  color: #3a342f;
+
+  width: 46vw;
+  height: 9.35vh;
+
+  margin-top: 30.37vh;
+}
+
+.relax p {
+  width: 32.5vw;
+  height: 33.33vh;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.68rem;
+  text-align: left;
+  color: #3a342f;
+
+  margin-top: 2.29vh;
+}
+
+.relax input {
+  width: 19.37vw;
+  height: 13.3vh;
+
+  background-color: #3a342f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.68rem;
+  font-weight: bold;
+  color: #f4f2f3;
+
+  border-radius: 44px;
+  margin-top: 7.38vh;
+  margin-bottom: 30.04vh;
+}
+
+.relax input:hover {
+  background-color: #fd6a9a;
+  color: #3a342f;
+  cursor: pointer;
+}
