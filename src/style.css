@@ -15,26 +15,33 @@ header {
   color: #ffffff;
   font-family: 'Roboto Serif', serif;
 
-  width: 100vw;
-  height: 11.17vh;
+  height: 69px;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 62px;
+  justify-content: center;
 }
 
-.container {
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80%;
+  max-width: 1024px;
+}
+
+header .container {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.logo {
-  width: 2.73vw;
-  height: 5.74vh;
+header .logo {
+  width: 35px;
+  height: 35px;
 }
 
-h2 {
+header h2 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -59,17 +66,23 @@ h2 {
 /* ------------------- SECTION WELCOME --------------------------*/
 
 .welcome {
-  width: 100vw;
-  height: 114.77vh;
+  height: 699px;
 
-  background-image: url(../assets/background-welcome.png);
+  background-image: url(../assets/background-welcome-desktop.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 
+  display: flex;
+  justify-content: center;
+}
+
+.welcome .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 80%;
+  max-width: 1024px;
 }
 
 .welcome h1 {
@@ -79,39 +92,39 @@ h2 {
   color: #ffffff;
   text-align: center;
 
-  width: 42vw;
-  height: 19.37vh;
-
-  position: relative;
-  top: 17.89vh;
+  width: 550px;
+  margin-top: 110px;
 }
 
 .welcome figure {
-  position: relative;
-  top: 23.63vh;
+  margin-top: 26px;
 }
 
 .welcome img {
-  width: 9.45vw;
-  height: 19.86vh;
+  width: 120px;
+  height: 120px;
 }
 
 /* ------------------- SECTION RELAX --------------------------*/
 .relax {
-  width: 100vw;
-  height: 126.1vh;
+  height: 768px;
 
-  background-image: url(../assets/background-relax.png);
+  background-image: url(../assets/background-relax-desktop.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 
+  display: flex;
+  justify-content: center;
+}
+
+.relax .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 
-  padding-left: 62px;
+  width: 80%;
+  max-width: 1024px;
 }
 
 .relax h2 {
@@ -119,28 +132,27 @@ h2 {
   font-weight: bold;
   font-size: 3.06rem;
   color: #3a342f;
+  text-align: left;
 
-  width: 46vw;
-  height: 9.35vh;
+  width: 440px;
 
-  margin-top: 30.37vh;
+  margin-top: 185px;
 }
 
 .relax p {
-  width: 32.5vw;
-  height: 33.33vh;
+  width: 400px;
 
   font-family: 'Roboto', sans-serif;
   font-size: 1.68rem;
   text-align: left;
   color: #3a342f;
 
-  margin-top: 2.29vh;
+  margin-top: 14px;
 }
 
 .relax input {
-  width: 19.37vw;
-  height: 13.3vh;
+  width: 248px;
+  height: 81px;
 
   background-color: #3a342f;
   font-family: 'Roboto', sans-serif;
@@ -149,12 +161,354 @@ h2 {
   color: #f4f2f3;
 
   border-radius: 44px;
-  margin-top: 7.38vh;
-  margin-bottom: 30.04vh;
+  border: none;
+  margin-top: 45px;
+  margin-bottom: 183px;
 }
 
 .relax input:hover {
   background-color: #fd6a9a;
   color: #3a342f;
+  border: 1px solid #fd6a9a;
   cursor: pointer;
+}
+
+/* ------------------- SECTION HEALTH --------------------------*/
+
+.health {
+  height: 768px;
+
+  background-image: url(../assets/background-health-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+}
+
+.health .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+  width: 80%;
+  max-width: 1024px;
+}
+
+.health h2 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 3.06rem;
+  color: #ffffff;
+  text-align: left;
+
+  width: 440px;
+
+  margin-top: 155px;
+}
+
+.health p {
+  width: 440px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.68rem;
+  text-align: left;
+  color: #ffffff;
+
+  margin-top: 14px;
+}
+
+.health input {
+  width: 248px;
+  height: 81px;
+  position: relative;
+  right: 188px;
+
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.68rem;
+  font-weight: bold;
+  color: #000000;
+
+  border-radius: 44px;
+  border: none;
+  margin-top: 45px;
+  margin-bottom: 153px;
+}
+
+.health input:hover {
+  background-color: #3a342f;
+  color: #ffffff;
+  border: 1px solid #3a342f;
+  cursor: pointer;
+}
+
+/* ------------------- SECTION SPONSORS --------------------------*/
+.sponsors {
+  height: 112px;
+
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  max-width: 1024px;
+}
+
+.sponsors p {
+  width: 72px;
+
+  font-family: 'Roboto Serif', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fd6a9a;
+}
+
+.sponsors figure {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponsors img {
+  width: 170px;
+  height: 25px;
+}
+
+/* ------------------- FOOTER --------------------------*/
+footer {
+  height: 314px;
+
+  background-color: #eb4a7b;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 80%;
+  max-width: 1024px;
+}
+
+.mobile-display {
+  display: none;
+}
+
+.container .card {
+  width: 200px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container .card h3 {
+  font-family: 'Roboto Serif', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+
+.container .card ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.87rem;
+  color: #ffffff;
+  text-align: left;
+  line-height: 30px;
+}
+
+/* -------------------- RESPONSIVIDADE FONT SIZE ----------------------*/
+@media (max-width: 960px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* ------------------- RESPONSIVIDADE MOBILE --------------------------*/
+@media (max-width: 750px) {
+  :root {
+    font-size: 14px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  header section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .socialMedias {
+    display: none;
+  }
+
+  header .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  header h2 {
+    font-size: 2.2rem;
+  }
+
+  .welcome {
+    height: 1168px;
+
+    background-image: url(../assets/background-welcome-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .welcome h1 {
+    width: 658px;
+    margin-top: 96px;
+
+    font-size: 4.4rem;
+  }
+
+  .welcome figure {
+    margin-top: 70px;
+  }
+
+  .welcome img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .relax {
+    height: 1334px;
+
+    background-image: url(../assets/background-relax-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .relax .container,
+  .health .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .relax h2 {
+    margin-top: 180px;
+  }
+
+  .relax input {
+    margin-bottom: 797px;
+  }
+
+  .health {
+    height: 1334px;
+
+    background-image: url(../assets/background-health-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .health h2 {
+    width: 500px;
+
+    margin-top: 142px;
+  }
+
+  .health input {
+    position: inherit;
+
+    margin-bottom: 834px;
+  }
+
+  .sponsors {
+    height: 218px;
+  }
+
+  .sponsors .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .sponsors figure {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer {
+    height: 1000px;
+
+    color: #ffffff;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 100px 0;
+  }
+
+  .mobile-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .mobile-display .socialMedias i {
+    font-size: 2.4rem;
+  }
+
+  footer .figure-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .figure-container .footer-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .figure-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .container .card {
+    width: 200px;
+    height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .container .card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 1.5rem;
+  }
 }
