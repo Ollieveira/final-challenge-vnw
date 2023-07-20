@@ -375,20 +375,19 @@ footer .container {
     background-repeat: no-repeat;
   }
 
+  .welcome .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 100px;
+  }
+
   .welcome h1 {
-    width: 658px;
+    width: 500px;
     margin-top: 96px;
 
-    font-size: 4.4rem;
-  }
-
-  .welcome figure {
-    margin-top: 70px;
-  }
-
-  .welcome img {
-    width: 200px;
-    height: 200px;
+    font-size: 2.8rem;
   }
 
   .relax {
@@ -545,24 +544,24 @@ footer .container {
 
 @media (max-width: 550px) {
   .welcome h1 {
-    width: 300px;
+    width: 100%;
   }
 
   .relax h2 {
-    width: 260px;
+    width: 100%;
   }
 
   .relax p {
-    width: 260px;
+    width: 100%;
     word-wrap: break-word;
   }
 
   .health h2 {
-    width: 260px;
+    width: 100%;
   }
 
   .health p {
-    width: 260px;
+    width: 100%;
     word-wrap: break-word;
   }
 
