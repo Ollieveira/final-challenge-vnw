@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Final Challenge VNW é uma web page que tem como objetivo colocar em prática os conhecimentos e conceitos sobre HTML, CSS e Design Responsivo aprendidos ao longo do módulo I do curso de Desenvolivento Web do Vai Na Web.
+O Final Challenge VNW é uma web page que tem como objetivo colocar em prática os conhecimentos e conceitos sobre HTML, CSS e Design Responsivo aprendidos ao longo do módulo I do curso de Desenvolvimento Web do Vai Na Web.
 
 - [Visite o projeto online](https://ollieveira.github.io/final-challenge-vnw/)
 
